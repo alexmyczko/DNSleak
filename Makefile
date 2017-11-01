@@ -23,7 +23,7 @@ $(NDPI_LIB):
 
 clean:
 	rm -f dnsleak
-	rm -f *.o
+	rm -f *.o ndpi_util.h.gch
 	rm -rf ./nDPI
 
 install: PREFIX ?= /usr
